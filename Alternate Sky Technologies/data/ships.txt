@@ -1,0 +1,93 @@
+ship "Cormorant"
+	plural "Cormorants"
+	sprite "ship/cormorant"
+	thumbnail "thumbnail/cormorant thumb"
+	attributes
+		category "Drone"
+		"cost" 99000
+		"shields" 0
+		"hull" 2100
+		"automaton" 1
+		"mass" 60
+		"drag" .65
+		"heat dissipation" .9
+		"outfit space" 165
+		"weapon capacity" 55
+		"engine capacity" 36
+		"radar jamming" 3
+		"ir jamming" 3
+		weapon
+			"blast radius" 7
+			"shield damage" 65
+			"hull damage" 35
+			"hit force" 100
+	outfits
+		"Electron Repeater"
+		"Starling Missile Launcher" 2
+		"Starling Missile" 480
+
+		"nGVF-DD Fuel Cell"
+		"Supercapacitor"
+		"Water Coolant System"
+
+		"X1700 Ion Thruster"
+		"X2200 Ion Steering"
+
+	engine -6.5 25
+	engine 6.5 25
+	gun 0 -25 "Electron Repeater"
+	gun -13 0 "Starling Missile Launcher"
+	gun 13 0 "Starling Missile Launcher"
+	leak "flame" 60 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "
+
+ship "Mallard"
+	sprite "ship/mallard"
+	thumbnail "thumbnail/mallard thumb"
+	attributes
+		category "Interceptor"
+		"cost" 199000
+		"shields" 1400
+		"hull" 2100
+		"required crew" 1
+		"bunks" 2
+		"mass" 110
+		"drag" 1.2
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 240
+		"weapon capacity" 55
+		"engine capacity" 62
+		"radar jamming" 3
+		"ir jamming" 3
+		weapon
+			"blast radius" 7
+			"shield damage" 65
+			"hull damage" 35
+			"hit force" 100
+	outfits
+		"Electron Repeater"
+		"Starling Missile Launcher" 2
+		"Starling Missile" 480
+
+		"nGVF-DD Fuel Cell"
+		"Supercapacitor"
+		"Water Coolant System"
+		"D41-HY Shield Generator"
+
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	engine -9 32
+	engine 9 32
+	gun 0 -31 "Electron Repeater"
+	gun -16.5 0 "Starling Missile Launcher"
+	gun 16.5 0 "Starling Missile Launcher"
+	leak "flame" 60 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "

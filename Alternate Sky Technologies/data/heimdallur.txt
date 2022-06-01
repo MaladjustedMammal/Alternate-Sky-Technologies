@@ -1,0 +1,302 @@
+mission "Heimdallur Testing"
+	name "Heimdallur Development"
+	description "
+
+ship "Alternate Sky Prototype"
+	sprite "ship/met par tek 53"
+	thumbnail "thumbnail/met par tek 53"
+	attributes
+		category "Heavy Warship"
+		"cost" 16200000
+		"shields" 29100
+		"hull" 10800
+		"required crew" 65
+		"bunks" 120
+		"mass" 700
+		"drag" 10
+		"heat dissipation" .6
+		"fuel capacity" 700	
+		"outfit space" 930
+		"cargo space" 90
+		"weapon capacity" 470
+		"engine capacity" 120
+		"spinal mount" 1
+		"radar jamming" 6
+		"ir jamming" 4
+		weapon
+			"blast radius" 260
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4000
+	outfits
+		"Starling Missile Launcher" 4
+		"Starling Missile" 960
+		"Electron Repeater Turret" 4
+		"High-Volume Anti-Missile"
+
+		"Ragnarok Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Sensor Array"
+		"Combat Information Center"
+		"Large Radar Jammer"
+
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+	gun -50 -45 "Starling Missile Launcher"
+	gun -45 -50 "Starling Missile Launcher"
+	gun 0 -90
+	gun 50 -45 "Starling Missile Launcher"
+	gun 45 -50 "Starling Missile Launcher"
+	turret -40 10 "Electron Repeater Turret"
+	turret -43 30
+	turret -45 50 "Electron Repeater Turret"
+	turret 0 40 "High-Volume Anti-Missile"
+	turret 40 10 "Electron Repeater Turret"
+	turret 43 30
+	turret 45 50 "Electron Repeater Turret"
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+
+ship "Heimdallur"
+	sprite "ship/heimdallur"
+	thumbnail "thumbnail/heimdallur thumb"
+	attributes
+		category "Heavy Warship"
+		license
+			"Alternate Sky License"
+		"cost" 16200000
+		"shields" 29100
+		"hull" 10800
+		"required crew" 65
+		"bunks" 120
+		"mass" 600
+		"drag" 8
+		"heat dissipation" .6
+		"fuel capacity" 700	
+		"outfit space" 950
+		"cargo space" 90
+		"weapon capacity" 470
+		"engine capacity" 120
+		"spinal mount" 1
+		"radar jamming" 8
+		"ir jamming" 8
+		weapon
+			"blast radius" 260
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4000
+	outfits
+		"Starling Missile Launcher" 4
+		"Starling Missile" 960
+		"Mass Driver"
+		"Ferromagnetic Slug" 60
+		"Electron Repeater Turret" 6
+		"High-Volume Anti-Missile"
+
+		"Ragnarok Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Sensor Array"
+		"Combat Information Center"
+		"Damage Control Facilities"
+		"Electronic Countermeasure Package"
+
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Ramdrive"
+	engine -38 116
+	engine 38 116
+	engine 0 146
+	gun -31.5 -19 "Starling Missile Launcher"
+	gun 32 -19 "Starling Missile Launcher"
+	gun 0 -138 "Mass Driver"
+	gun -39.5 -19 "Starling Missile Launcher"
+	gun 41 -19 "Starling Missile Launcher"
+	turret -22 25 "Electron Repeater Turret"
+	turret -34 45 "Electron Repeater Turret"
+	turret -46 58 "Electron Repeater Turret"
+	turret 0 5 "High-Volume Anti-Missile"
+	turret 22 25 "Electron Repeater Turret"
+	turret 34 45 "Electron Repeater Turret"
+	turret 46 58 "Electron Repeater Turret"
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "
+
+ship "Heimdallur" "Heimdallur (Multirole)"
+	add attributes
+		"fuel capacity" 100
+		"outfit space" -20
+		"cargo space" 170
+		"weapon capacity" -20
+		"engine capacity" -20
+	outfits
+		"Starling Missile Launcher" 2
+		"Starling Missile" 480
+		"Mass Driver"
+		"Ferromagnetic Slug" 60
+		"Electron Repeater Turret" 6
+		"High-Volume Anti-Missile"
+
+		"Ragnarok Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Sensor Array"
+		"Combat Information Center"
+		"Damage Control Facilities"
+		"Electronic Countermeasure Package"
+
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Ramdrive"
+	gun -31.5 -19 "Starling Missile Launcher"
+	gun 32 -19
+	gun 0 -138 "Mass Driver"
+	gun -39.5 -19 "Starling Missile Launcher"
+	gun 41 -19
+	turret -22 25 "Electron Repeater Turret"
+	turret -34 45 "Electron Repeater Turret"
+	turret -46 58 "Electron Repeater Turret"
+	turret 0 5 "High-Volume Anti-Missile"
+	turret 22 25 "Electron Repeater Turret"
+	turret 34 45 "Electron Repeater Turret"
+	turret 46 58 "Electron Repeater Turret"
+
+ship "Heimdallur" "Heimdallur (Assault)"
+	add attributes
+		"drag" -1.0
+		"heat dissipation" .06
+		"outfit space" 60
+		"engine capacity" 40
+	outfits
+		"Starling Missile Launcher" 4
+		"Starling Missile" 960
+		"Mass Driver"
+		"Ferromagnetic Slug" 60
+		"Electron Repeater Turret" 6
+		"High-Volume Anti-Missile"
+
+		"Ragnarok Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Sensor Array"
+		"Combat Information Center"
+		"Damage Control Facilities"
+		"Electronic Countermeasure Package"
+
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Afterburner"
+		"Ramdrive"
+	bay "Drone" 0 50 under
+	gun -31.5 -19 "Starling Missile Launcher"
+	gun 32 -19 "Starling Missile Launcher"
+	gun 0 -138 "Mass Driver"
+	gun -39.5 -19 "Starling Missile Launcher"
+	gun 41 -19 "Starling Missile Launcher"
+	turret -22 25 "Electron Repeater Turret"
+	turret -34 45 "Electron Repeater Turret"
+	turret -46 58 "Electron Repeater Turret"
+	turret 0 5 "High-Volume Anti-Missile"
+	turret 22 25 "Electron Repeater Turret"
+	turret 34 45 "Electron Repeater Turret"
+	turret 46 58 "Electron Repeater Turret"
+
+ship "Heimdallur" "Heimdallur (Fortress)"
+	add attributes
+		"shields" 4500
+		"hull" 2200
+		"outfit space" 60
+	outfits
+		"Starling Missile Launcher" 4
+		"Starling Missile" 960
+		"Mass Driver"
+		"Ferromagnetic Slug" 60
+		"Electron Repeater Turret" 6
+		"High-Volume Anti-Missile" 2
+
+		"Ragnarok Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator" 2
+		"Liquid Nitrogen Cooler"
+		"Sensor Array"
+		"Combat Information Center"
+		"Damage Control Facilities"
+		"Electronic Countermeasure Package"
+
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Ramdrive"
+	bay "Drone" 0 50 under
+	gun -31.5 -19 "Starling Missile Launcher"
+	gun 32 -19 "Starling Missile Launcher"
+	gun 0 -138 "Mass Driver"
+	gun -39.5 -19 "Starling Missile Launcher"
+	gun 41 -19 "Starling Missile Launcher"
+	turret -22 25 "Electron Repeater Turret"
+	turret -34 45 "Electron Repeater Turret"
+	turret -46 58 "Electron Repeater Turret"
+	turret 0 80 "High-Volume Anti-Missile"
+	turret 0 5 "High-Volume Anti-Missile"
+	turret 22 25 "Electron Repeater Turret"
+	turret 34 45 "Electron Repeater Turret"
+	turret 46 58 "Electron Repeater Turret"
+
+ship "Heimdallur" "Heimdallur (Light)"
+	add attributes
+		"shields" -4850
+		"hull" -1800
+		"bunks" -20
+		"mass" -50
+		"drag" -1
+		"fuel capacity" -100
+		"outfit space" -125
+		"cargo space" -10
+		"weapon capacity" -120
+	outfits
+		"Starling Missile Launcher" 2
+		"Starling Missile" 480
+		"Mass Driver"
+		"Ferromagnetic Slug" 60
+		"Electron Repeater Turret" 4
+		"High-Volume Anti-Missile"
+
+		"Ragnarok Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Sensor Array"
+		"Combat Information Center"
+		"Damage Control Facilities"
+		"Electronic Countermeasure Package"
+
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Ramdrive"
+	gun -31.5 -19 "Starling Missile Launcher"
+	gun 32 -19
+	gun 0 -138 "Mass Driver"
+	gun -39.5 -19 "Starling Missile Launcher"
+	gun 41 -19
+	turret -22 25 "Electron Repeater Turret"
+	turret -34 45 "Electron Repeater Turret"
+	turret 0 5 "High-Volume Anti-Missile"
+	turret 22 25 "Electron Repeater Turret"
+	turret 34 45 "Electron Repeater Turret"

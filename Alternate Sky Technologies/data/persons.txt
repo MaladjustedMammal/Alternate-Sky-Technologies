@@ -1,0 +1,99 @@
+person "maladjustedmammal"
+	government "Author"
+	personality
+		plunders
+	phrase
+		word
+			"I won't say where, but there are areas outside of human space that offer advanced technologies, like what I have on my ship!"
+			"The quality of this plugin is limited by my lack of understanding of what I am doing."
+	ship "Heimdallur" "Heimdallur (Assault)"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			"cost" 16200000
+			"shields" 29100
+			"hull" 10800
+			"required crew" 65
+			"bunks" 120
+			"mass" 600
+			"drag" 7
+			"heat dissipation" 1.2
+			"fuel capacity" 700
+			"outfit space" 1010
+			"cargo space" 90
+			"weapon capacity" 470
+			"engine capacity" 160
+			"spinal mount" 1
+			"radar jamming" 8
+			"ir jamming" 8
+		outfits
+			"Blue Sun Reactor"
+			Brig
+			"Cloaking Device"
+			"Combat Information Center"
+			"Dark Storm Shielding"
+			"Electron Repeater Turret" 4
+			"Electron Turret"
+			"Electronic Countermeasure Package"
+			"Ferromagnetic Slug" 60
+			"Fragmentation Grenades" 46
+			"Fuel Processor"
+			"High-Volume Anti-Missile" 2
+			"Ionic Afterburner"
+			"Jump Drive"
+			"Large Repair Module"
+			"Liquid Nitrogen Cooler"
+			"Luxury Accomodations"
+			"Mass Driver"
+			"Pulse Rifle" 46
+			"Quantum Keystone"
+			Ramdrive
+			"Sensor Array"
+			"Smelter-Class Steering"
+			"Smelter-Class Thruster"
+			"Thunderhead Launcher" 4
+			"Thunderhead Missile" 220
+			"Thunderhead Storage Array" 3
+
+		engine -38 116
+		engine 38 116
+		engine 0 146
+		gun -31.5 -19 "Thunderhead Launcher"
+		gun -39.5 -19 "Thunderhead Launcher"
+		gun 0 -138 "Mass Driver"
+		gun 32 -19 "Thunderhead Launcher"
+		gun 41 -19 "Thunderhead Launcher"
+		turret -22 25 "High-Volume Anti-Missile"
+		turret -34 45 "Electron Repeater Turret"
+		turret -46 58 "Electron Repeater Turret"
+		turret 0 5 "Electron Turret"
+		turret 22 25 "High-Volume Anti-Missile"
+		turret 34 45 "Electron Repeater Turret"
+		turret 46 58 "Electron Repeater Turret"
+		bay Drone 0 50 under
+		explode "huge explosion" 30
+		explode "large explosion" 45
+		explode "medium explosion" 35
+		explode "small explosion" 25
+		"final explode" "final explosion large" 1
+	ship "Cormorant (mal)" "Epsilon"
+
+ship "Cormorant" "Cormorant (mal)"
+		"never disabled"
+		add attributes
+			"shields" 700
+			"hull" 700
+			"outfit space" 30
+		outfits
+			"Electron Repeater"
+			"Starling Missile Launcher" 2
+			"Starling Missile" 480
+
+			"nGVF-DD Fuel Cell"
+			"Supercapacitor"
+			"Water Coolant System"
+			"D41-HY Shield Generator"
+
+			"X1700 Ion Thruster"
+			"X2200 Ion Steering"
+				

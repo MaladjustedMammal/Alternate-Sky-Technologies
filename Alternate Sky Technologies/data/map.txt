@@ -1,0 +1,110 @@
+system "Epsilon Leonis"
+	pos -619 -229
+	government Republic
+	habitable 1400
+	belt 1527
+	link Gomeisa
+	link Aspidiske
+	link Adhara
+	asteroids "small rock" 34 3.888
+	asteroids "medium rock" 66 1.836
+	asteroids "large rock" 24 2.376
+	asteroids "small metal" 13 2.052
+	asteroids "medium metal" 39 3.96
+	asteroids "large metal" 1 3.816
+	minables lead 15 3.56384
+	trade Clothing 297
+	trade Electronics 650
+	trade Equipment 447
+	trade Food 539
+	trade "Heavy Metals" 1090
+	trade Industrial 662
+	trade "Luxury Goods" 1304
+	trade Medical 599
+	trade Metal 216
+	trade Plastic 389
+	fleet "Small Northern Merchants" 700
+	fleet "Large Northern Merchants" 1400
+	fleet "Small Deep Security" 2000
+	fleet "Small Deep Merchants" 1600
+	fleet "Large Deep Security" 6000
+	fleet "Large Deep Merchants" 2500
+	object
+		sprite star/g0
+		distance 25.8286
+		period 12.8414
+		offset 180
+	object
+		sprite star/k5
+		distance 87.1714
+		period 12.8414
+	object
+		sprite planet/ice4-b
+		distance 403.211
+		period 86.5556
+		object
+			sprite planet/ice8-b
+			distance 133
+			period 17.5024
+	object
+		sprite planet/ganymede-b
+		distance 747.171
+		period 218.337
+	object Valhalla
+		sprite planet/earth
+		distance 1027.21
+		period 351.954
+	object
+		sprite planet/gas7
+		distance 2086.25
+		period 1018.7
+		object
+			sprite planet/dust1
+			distance 267
+			period 14.1568
+		object
+			sprite planet/tethys
+			distance 355
+			period 21.704
+		object
+			sprite planet/mercury
+			distance 515
+			period 37.9234
+	object
+		sprite planet/gas1
+		distance 2550
+		period 1050.5
+		object
+			sprite planet/desert4
+			distance 200
+			period 6.25
+		object
+			sprite planet/rock3
+			distance 400
+			period 12.5
+		object Alternate
+			sprite planet/station6
+			distance 800
+			period 25
+
+planet Alternate
+	government "Alternate Sky"
+	attributes deep station
+	landscape land/space2
+	music ambient/machinery
+	description `
+	spaceport `
+	shipyard "Alternate Sky Retrofits"
+	shipyard "Alternate Sky Light Ships"
+	shipyard "Alternate Sky Medium Ships"
+	shipyard "Alternate Sky Heavy Ships"
+	shipyard "Alternate Sky Heimdallur"
+	outfitter "Alternate Sky Common Outfits"
+	outfitter "Alternate Sky Rare Outfits"
+	outfitter "Alternate Sky Combat Light"
+	outfitter "Alternate Sky Combat Heavy"
+	bribe 0.1
+	security 0.35
+	tribute 1200
+		threshold 3500
+		fleet "Small Deep Security" 20

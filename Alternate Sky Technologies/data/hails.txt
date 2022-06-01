@@ -1,0 +1,3 @@
+phrase "friendly alternate"
+	word
+		"

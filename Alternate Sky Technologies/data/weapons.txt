@@ -1,0 +1,248 @@
+outfit "Electron Repeater"
+	category "Guns"
+	cost 190000
+	thumbnail "outfit/electron beam"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron bolt"
+		sound "blaster"
+		"hit effect" "electron impact"
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 16
+		"reload" 6
+		"burst count" 4
+		"burst reload" 1
+		"firing energy" 12
+		"firing heat" 14
+		"shield damage" 12.4
+		"hull damage" 17.8
+	description "Unlike the electron beam, which was developed first as a fixed weapon and then mounted to a turret for capital ships, the electron repeater was designed as a more versatile version of the turret, but was afterwards offered in smaller, fixed variants to fit in gun ports as well."
+
+outfit "Electron Repeater Turret"
+	category "Turrets"
+	cost 800000
+	thumbnail "outfit/electron turret"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/electron bolt"
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hardpoint offset" 8.
+		sound "blaster"
+		"hit effect" "electron impact"
+		"inaccuracy" 1
+		"turret turn" 2.1
+		"velocity" 30
+		"lifetime" 16
+		"reload" 6
+		"burst count" 8
+		"burst reload" 1
+		"firing energy" 20
+		"firing heat" 28
+		"shield damage" 26.8
+		"hull damage" 37.6
+	description "The power of the electron turret changed human warfare virtually overnight. The raw sustained damage it could output meant that ships could be disabled or destroyed faster than ever before. The only serious drawback of the weapon was its slow turn rate, unable to track fast targets adequately."
+	description "	Alternate Sky purchased the right to design a variant of the electron beam to address this drawback. The electron repeater, rather than being a beam weapon, fires electron bolts in bursts, resulting in slightly less damage and slightly higher range. This change also allows it to be slightly smaller, resulting in faster turn rates. This, coupled with the improved range, enables it to perform better against fast-moving targets."
+
+outfit "Close-In Weapon System"
+	category "Turrets"
+	cost 1
+	thumbnail "outfit/gat"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "projectile/bullet"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hardpoint offset" 9.
+		sound "explosion tiny"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"turret turn" 1.6
+		"velocity" 45
+		"lifetime" 9
+		"reload" 2
+		"firing energy" 2.5
+		"firing heat" 5
+		"shield damage" 5
+		"hull damage" 10
+	description "The Close-In Weapon System, or CIWS, is a reinvention of an old human weapon. Originally designed as an anti-missile system, this cousin of the millennia-old design has been repurposed as a powerful, short range offensive weapon. The sheer volume of projectiles it fires can absolutely shed the hull of a ship, but it also generates a lot of heat as so many bullets travel through the barrel."
+		
+outfit "High-Volume Anti-Missile"
+	category "Turrets"
+	cost 
+	thumbnail "outfit/anti-missile"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small anti-missile"
+		"anti-missile" 3
+		"velocity" 150
+		"lifetime" 1
+		"reload" 1.5
+		"firing energy" 5
+		"firing heat" 3
+	description "In contrast to galactic trends toward slower, heavier-hitting anti-missiles, the HiVAM is engineered for rapid, low-energy fire cycles, capable of engaging swarms of missiles with high success rates. However, it faces a critical weakness in armored projectiles, such as torpedoes, which can often break through the turret's defense." 
+
+outfit "Starling Missile"
+	category "Ammunition"
+	cost 100
+	thumbnail "outfit/sidewinder"
+	"mass" .01
+	"starling capacity" -1
+	description "The Starling Missile is ammunition for the Starling Missile Launcher; each launcher that you have installed can be armed with up to 240 of them (or 480 in a launcher turret). You cannot install a missile without a launcher to fire it from."
+
+outfit "Starling Missile Rack"
+	category "Ammunition"
+	cost 50000
+	thumbnail "outfit/sidewinder storage"
+	"mass" 4.5
+	"outfit space" -9
+	"starling capacity" 120
+	ammo "Starling Missile"
+	description "The Starling Missile Rack is used to store extra ammunition for Starling Missile Launchers."
+
+outfit "Starling Missile Launcher"
+	category "Secondary Weapons"
+	cost 100000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 9
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	"starling capacity" 240
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Starling Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 3
+		"velocity" 28
+		"lifetime" 500
+		"reload" 20
+		"burst count" 12
+		"burst reload" 4
+		"firing energy" 1
+		"firing heat" 15
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"radar tracking" .8
+		"shield damage" 50
+		"hull damage" 75
+		"hit force" 150
+		"missile strength" 2
+	description "Aware of the weakness of slow firing, high damage anti-missiles, Alternate Sky developed Starling missiles to overwhelm a ship's defenses. Cheap and easy to produce, each missile is only lightly armored and is individually not that powerful, but in a swarm launched by mutliple Starling missile launchers, they can almost always guarantee penetration of missile defenses and the delivery of explosive firepower to a target."
+
+outfit "Starling Missile Launcher Turret"
+	category "Turrets"
+	cost 200000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 20
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"starling capacity" 480
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Starling Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 3
+		"velocity" 28
+		"lifetime" 500
+		"reload" 20
+		"burst count" 12
+		"burst reload" 4
+		"firing energy" 1
+		"firing heat" 15
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"radar tracking" .8
+		"shield damage" 50
+		"hull damage" 75
+		"hit force" 150
+		"missile strength" 4
+	description "The Starling missile launcher turret is a more versatile version of the fixed launcher. Each turret has two chain-fed launchers equipped, capable of launching 24 missiles in a single salvo. It is a very potent offensive weapon, capable of overwhelming defenses at extreme range in 360 degrees. Its primary weakness is its dependence on ammunition; since it does not use energy projectiles, it has a very finite number of rounds for something considered to be a primary weapon."
+
+outfit "Ferromagnetic Slug"
+	category "Ammunition"
+	licenses
+		Alternate Sky License
+	cost 1500
+	thumbnail "outfit/railslug"
+	"mass" 0.25
+	"ferromagnetic slug capacity" -1
+	description "The Ferromagnetic Slug is ammunition for the Mass Driver; each driver that you have installed can be armed with up to 60 of them. You cannot install a slug without a driver to fire it from."
+
+outfit "Mass Driver Coil Extension"
+	category "Ammunition"
+	licenses
+		Alternate Sky License
+	cost 90000
+	thumbnail "outfit/railslug rack"
+	"mass" 6
+	"outfit space" -6
+	"ferromagnetic slug capacity" 6
+	ammo "Ferromagnetic Slug"
+	description "The Mass Driver Coil Extension is used to store extra ammunition for Mass Drivers. It is also intended to increase the damage dealt by mass drivers, but that doesn't seem to be doable in the game yet."
+
+outfit "Mass Driver"
+	category "Secondary Weapons"
+	licenses
+		Alternate Sky License
+	cost 900000
+	thumbnail "outfit/railgun"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"required crew" 3
+	"gun ports" -1
+	"spinal mount" -1
+	"ferromagnetic slug capacity" 60
+	"unplunderable" 1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "jump drive red"
+		ammo "Ferromagnetic Slug"
+		icon "icon/rail gun"
+		"fire effect" " rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" .25
+		"velocity" 45
+		"lifetime" 1000
+		"range override" 5000
+		"reload" 200
+		"firing energy" 4000
+		"firing heat" 500
+		"shield damage" 8000
+		"hull damage" 100
+		"firing force" 120
+	description "A powerful new weapon available to the human arsenal, the mass driver is a large weapon integrated into the ship along its spine, consisting of a row of magnetic coils that accelerate a ferromagnetic slug up to great speed. The round itself does raw kinetic damage, the force of which can overload a shield matrix and bring down all but the strongest shields in one shot. However, since it's just a piece of metal traveling at high speed, it tends to punch right through a ship's hull, dealing little damage."

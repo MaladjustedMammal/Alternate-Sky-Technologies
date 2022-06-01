@@ -1,0 +1,20 @@
+government "Alternate Sky"
+	swizzle 
+	color 
+	"crew attack" 0.8
+	"crew defense" 1.6
+
+	"player reputation" 2
+	"attitude toward"
+		"Syndicate" .1
+		"Republic" 1
+		"Free Worlds" 1
+		"Wanderer" 1
+		"Hai" 1
+		"Alpha" -.3
+		"Merchant" .25
+		"Pirate" -.3
+		"Neutral" .1
+	"bribe" .08
+	"friendly hail" "friendly alternate"
+	"hostile hail" "hostile alternate"

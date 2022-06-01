@@ -1,0 +1,10 @@
+outfit "Ragnarok Core"
+	category "Power"
+	cost 12000000
+	thumbnail "outfit/fusion"
+	"mass" 150
+	"outfit space" -150
+	"energy generation" 27.3
+	"heat generation" 35
+	description "Low-energy nuclear reactions, colloqiually known as cold fusion, have been the dream of scientists and fiction authors alike for centuries. It wasn't until recently, however, that a sustainable form of such power was developed. The Ragnarok core uses laser-assisted muon catalysis to facilitate nuclear fusion at low temperatures, generating extreme power with minimal amounts of heat."
+	description "	The core itself is larger than an Armageddon Core and generates only marginally more power, but its main selling point is the massive heat savings, as the core runs at half the temperature of the Armageddon Core."

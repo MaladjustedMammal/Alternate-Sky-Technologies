@@ -1,0 +1,122 @@
+outfit "Captain's Suite"
+	category "Systems"
+	cost 25000
+	thumbnail "outfit/luxury accommodations"
+	"mass" 10
+	"outfit space" -10
+	"unplunderable" 1
+	description "This outfit doesn't do anything yet. It may be updated in future versions."
+
+outfit "Radiator"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 2
+	description "Sometimes, complex coolant systems or even just air-cooled systems are not necessary for small craft running just a little over their heat tolerance. The radiator is a simple, millenia-old design that consists of external panels that increase surface area and allow heat to be passively radiated away from the ship."
+
+outfit "Damage Control Facilities"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/command center"
+	"mass" 25
+	"outfit space" -25
+	"hull repair rate" .4
+	"hull energy" .25
+	"hull heat" 2
+	description "It can be expensive for captains to have find a spaceport to land at and repair after taking damage from pirates on their cargo routes or while escorting other ships, but it is an unfortunate necessity of space travel. Sufficient damage control facilities, however, can enable crews to repair their ships without landing, keeping them operational long enough to reach their destination without needing to make a detour to repair."
+
+outfit "Artificial Slipstream Drive"
+	category "Systems"
+	licenses
+		Alternate Sky License
+	cost 3000000
+	thumbnail "outfit/warp"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"jump speed" .3
+	"jump fuel" 300
+	"jump drive" 1
+	"hyperdrive" 1
+	"cooling inefficiency" 1
+	"unplunderable" 1
+	description "Since the earliest decades of interstellar travel, man has dreamt of being able to move freely about without being confined by the existing hyperlanes, but has failed time and again to create their own routes of travel between stars. However, this recent development from Alternate Sky might just be the key to break the status quo; the artificial slipstream drive is able to temporarily create a hyperlane between two stars by concentrating the flow of gravitons between them."
+	description "	The device consumes a lot of fuel and is integrated to the structure of the ship itself, compromising some outfit and engine capacity, but it allows captains to move between stars freely, while also being able to jump along natural lanes. The primary drawback of what many captains are calling the 'alternate drive' is its cost; the complex experimental mechanism is as expensive as a light warship or some freighters."
+
+outfit "Combat Information Center"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/command center"
+	"mass" 25
+	"outfit space" -25
+	"required crew" -30
+	"unplunderable" 1
+	description "One of the greatest difficulties facing captains is the high cost of paying large crews. Larger ships can have crews upwards of 60 or 70 people, and their salaries can build quickly. The combat information center, or CIC, is a new solution to that problem; it consolidates ship controls into one central operations core, with increased automation and computer assistance, allowing smaller crews to operate heavy freighters and warships. Alternate Sky's CIC is rated to replace as many as 30 personnel, saving captains 3000 credits every day. In just 67 days of operation, captains will have already made back the cost of installing the CIC on their ship, and it will save them more than a million credits each year."
+
+outfit "Android"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/
+	"mass" 0.3
+	"outfit space" -1
+	"required crew" -1
+	"capture attack" -0.1
+	"capture defense" -0.1
+	description "For ships that are too small to warrant a full CIC, the android offers automation at the individual level. Though they're more expensive up front, each android can save captains up to 26,500 credits in their first year, and more than 36,000 in subsequent years."
+	description "	This is highly useful for captains of especially smaller ships, where two or three androids can replace the entire crew of a something like a Syndicate Freighter or an Argosy. Androids are not yet able, however, to accurately simulate human companionship. They also are not very effective combat troops."
+
+outfit "Ramdrive"
+	category "Systems"
+	cost 500000
+	thumbnail "outfit/scram drive"
+	"mass" 40
+	"outfit space" -40
+	"ramscoop" 3
+	"scram drive" .4
+	"jump fuel" 150
+	"hyperdrive" 1
+	description "Though it's quite expensive, the ramdrive offers captains the greatest mobility a single FTL drive can. Its complex computer core allows ships to enter hyperspace with the highest drift tolerances, capable of jumping with twice the lateral motion a scram drive can tolerate. In addition, the ramdrive has a built-in ramscoop, saving captains the need to install additional equipment on their ship."
+
+outfit "Sensor Array"
+	category "Systems"
+	cost 500000
+	thumbnail "outfit/large collector module"
+	"mass" 12
+	"outfit space" -10
+	"required crew" 1
+	"asteroid scan power" 20
+	"cargo scan power" 15
+	"cargo scan speed" 1
+	"outfit can power" 50
+	"outfit scan speed" 1
+	"tactical scan power" 60
+	description "The sensor array combines all the scanning power a ship might need into a compact, central sensor suite. With power equivalent to two individual cargo, outfit, and tactical scanners each, as well as an asteroid scanner, it is a more space efficient way to collect comprehensive data on everything in a system. Its only drawbacks are the extreme cost (it is more expensive than purchasing each scanner individually) and the additional crew required to operate such complex equipment."
+
+outfit "Electronic Countermeasure Package"
+	category "Systems"
+	cost 750000
+	thumbnail "outfit/sheragi ews"
+	"mass" 10
+	"outfit space" -10
+	"radar jamming" 12
+	"interference" 4
+	description "Electronic countermeasures are the basis of passive ship defenses, commonly found as individual radar jammers and interference plating. The electronic countermeasure package condenses both radar jamming and scan interference into one central outfit, saving a significant amount of space at great expense. It emits interference signals that disrupt radar locks quite effectively and can also confuse sensor scans to hide any cargo or outfits you don't want detected."
+
+outfit "Synthetic Stabilizer"
+	category "Systems"
+	licenses
+		Alternate Sky License
+	cost 300000
+	thumbnail "outfit/small radar jammer"
+	"mass" 3
+	"outfit space" -3
+	"cooling inefficiency" 1
+	"quantum keystone" 1
+	description "Though Alternate Sky never revealed how it developed this technology, it is believed that it is based on mysterous alien technology. Whether true or not, it is known to allow passage through wormholes, by one mechanism or another, while also generating excess heat. The device's existence and purpose, however, is kept quiet by Alternate Sky, and access to one requires a difficult-to-obtain license."
+
+outfit "Alternate Sky License"
+	category "Special"
+	thumbnail "outfit/license"
+	description "Unlike typical thin plastic licenses and IDs, this Alternate Sky license is slightly thicker and made of a polished metal, with detailed laser engravings and complex holographic authentification."
